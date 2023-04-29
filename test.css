@@ -1,0 +1,1419 @@
+* {
+  margin: 0;
+}
+.media-img {
+  height: 30px;
+  cursor: pointer;
+}
+/*------------------------------------------- Menu Bar --------------------------------------------*/
+.menu-icon {
+  height: 48px;
+}
+.menu-icon {
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+#container1 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  column-gap: 10rem;
+  padding: 14px 0;
+  background-color: black;
+  position: fixed;
+  width: -webkit-fill-available;
+  z-index: 1;
+  /*    opacity: 0.9;*/
+}
+.logo {
+  color: #fff;
+  font-size: 30px;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  padding-top: 6px;
+}
+.logo:hover {
+  color: #f94a29;
+}
+.contain2 {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.menu-bar {
+  display: flex;
+}
+.li-1 {
+  list-style-type: none;
+  padding: 14px 20px;
+}
+.menu-bar-a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+}
+.menu-bar-a:hover {
+  color: #f13a11;
+}
+.social-media-bar {
+  display: flex;
+  padding: 0;
+}
+.li-2 {
+  list-style-type: none;
+  padding: 11px 8px;
+}
+/*------------------------------------------ BG Image Design -----------------------------------------*/
+#container2 {
+  position: relative;
+}
+.bg-img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.bg-black {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+}
+.contain {
+  position: absolute;
+  top: 25rem;
+  left: 40rem;
+}
+.contain-para {
+  color: #909090;
+  font-size: 22px;
+  font-family: "Anuphan", sans-serif;
+  text-align: center;
+}
+.contain-title1 {
+  font-size: 48px;
+  color: #fff;
+  font-family: "Anuphan", sans-serif;
+  margin-top: 20px;
+}
+.contain-title2 {
+  text-align: center;
+  font-size: 48px;
+  color: #fff;
+  font-family: "Anuphan", sans-serif;
+  margin-bottom: 30px;
+}
+.contain-a {
+  display: flex;
+  justify-content: center;
+  column-gap: 2rem;
+  font-family: "Inter", sans-serif;
+}
+.contain-a1 {
+  font-size: 15px;
+  margin-top: 18px;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  color: #fff;
+}
+.contain-a1:hover {
+  color: #f13a11;
+}
+.contain-a2 {
+  font-size: 15px;
+  border: 1px solid #f13a11;
+  padding: 17px 18px;
+  color: #f13a11;
+  text-decoration: none;
+}
+/* .contain-a2:hover {
+  background-color: #fff;
+  border: white;
+} */
+/*----------------------------------------- MemberShip & Timing Design --------------------------------------------*/
+#container3 {
+  background-color: black;
+}
+.gymso-membership-timing {
+  display: flex;
+  justify-content: center;
+  column-gap: 5rem;
+  padding: 80px 0;
+}
+.membership .membership-title1 {
+  color: #fff;
+  font-size: 40px;
+  font-family: "Inter", sans-serif;
+}
+.membership .membership-title2 {
+  color: #fff;
+  font-size: 25px;
+  width: 31rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  padding: 24px 0;
+}
+.membership .membership-para {
+  color: gray;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  width: 27rem;
+  padding-bottom: 45px;
+}
+.membership .membership-a {
+  color: #fff;
+  background-color: #f13a11;
+  padding: 1rem 10rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.membership-a:hover {
+  background-color: #fff;
+  color: #f13a11;
+}
+.hr-line1 {
+  height: 12rem;
+  margin-top: 20px;
+  border: 1px solid #1a1919;
+}
+.timing .timing-title1 {
+  color: #fff;
+  font-size: 38px;
+  font-family: "Inter", sans-serif;
+}
+.timing .timing-title2 {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  padding-top: 24px;
+}
+.timing .timing-title3 {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+}
+.timing .timing-para1 {
+  color: gray;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  padding-top: 6px;
+}
+.timing .timing-title4 {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  padding-top: 20px;
+}
+.timing .timing-para2 {
+  color: gray;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  padding-top: 6px;
+}
+/*------------------------------------------------- About Gymso ------------------------------------------------*/
+#container4 {
+  background-color: whitesmoke;
+}
+.about-gymso-contain {
+  display: flex;
+  justify-content: center;
+  /* column-gap: 60px; */
+  padding: 7rem 0;
+}
+.about-gymso-contain .about-gymso {
+  padding: 65px;
+}
+.about-gymso .gymso-title {
+  color: #221f1f;
+  font-size: 38px;
+  font-family: "Inter", sans-serif;
+  letter-spacing: -2px;
+}
+.about-gymso .gymso-para1 {
+  color: #2f2d2d;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  width: 30rem;
+  padding: 23px 0;
+}
+.about-gymso .gymso-para2 {
+  color: #2f2d2d;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  width: 30rem;
+}
+.about-img-contain {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+}
+.img-contain1 .img1 {
+  height: 16rem;
+}
+.about-img-contain .bg-color {
+  background-color: #ffffff;
+  box-shadow: 6px 0 38px rgba(20, 20, 20, 0.1);
+  margin-top: -5px;
+}
+.about-img-contain .bg-color .bg-text-detail {
+  padding: 20px 0;
+}
+.about-img-contain .bg-color .bg-text-detail .bg-text-detail-contain1 {
+  display: flex;
+  justify-content: center;
+  column-gap: 3rem;
+}
+.about-img-contain
+  .bg-color
+  .bg-text-detail
+  .bg-text-detail-contain1
+  .bg-title1 {
+  font-family: "Inter", sans-serif;
+  color: #221f1f;
+  font-size: 28px;
+}
+.about-img-contain .bg-color .bg-text-detail .bg-text-detail-contain1 .bg-img1 {
+  height: 23px;
+  margin-top: 6px;
+  cursor: pointer;
+}
+.about-img-contain .bg-color .bg-text-detail .bg-text-detail-contain2 {
+  display: flex;
+  justify-content: center;
+  column-gap: 4rem;
+}
+.about-img-contain
+  .bg-color
+  .bg-text-detail
+  .bg-text-detail-contain2
+  .bg-title2 {
+  font-size: 16px;
+  color: #221f1f;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+}
+.about-img-contain .bg-color .bg-text-detail .bg-text-detail-contain2 .bg-img2 {
+  height: 18px;
+  cursor: pointer;
+}
+.bg-img12 {
+  height: 18px;
+  margin-top: 6px;
+  cursor: pointer;
+}
+.bg-text-detail-contain21 {
+  display: flex;
+  justify-content: center;
+  column-gap: 90px;
+}
+.bg-text-detail-contain21 .bg-title21 {
+  font-size: 16px;
+  color: #221f1f;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+}
+.bg-text-detail-contain21 .bg-img21 {
+  height: 18px;
+  cursor: pointer;
+}
+/*------------------------------------------------ Training Classes -------------------------------------------------*/
+#container5 {
+  background-color: #fff;
+}
+.training-contain {
+  padding: 100px 0;
+}
+.training-contain .training-text-title {
+  text-align: center;
+}
+.training-contain .training-text-title .training-title1 {
+  font-family: "Anuphan", sans-serif;
+  font-weight: 400;
+  color: #909090;
+  font-size: 22px;
+}
+.training-contain .training-text-title .timing-title2 {
+  color: #161515;
+  font-size: 38px;
+  font-family: "Inter", sans-serif;
+  letter-spacing: -2px;
+  margin-top: 5px;
+}
+.training-contain .training-contain-item {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  column-gap: 30px;
+  padding-top: 50px;
+}
+.item-img {
+  height: 235px;
+}
+.item-detail {
+  background-color: #ffffff;
+  box-shadow: 6px 0 38px rgba(20, 20, 20, 0.1);
+  padding: 0px 24px;
+  margin-top: -5px;
+}
+.item-detail .item-title1 {
+  font-family: "Inter", sans-serif;
+  color: #221f1f;
+  font-size: 28px;
+  padding-top: 24px;
+  padding-bottom: 5px;
+}
+.item-detail .item-span-title {
+  font-family: "Inter", sans-serif;
+  color: #a5a5a5;
+  font-size: 16px;
+  font-weight: 700;
+}
+.item-detail .item-span-title1 {
+  float: right;
+  background-color: #f13a11;
+  padding: 16px;
+  border-radius: 100%;
+  height: 23px;
+  width: 26px;
+  font-weight: 600;
+  font-family: "Anuphan", sans-serif;
+  color: #fff;
+  margin-top: -28px;
+}
+.item-detail .item-para {
+  width: 19rem;
+  color: #2f2d2d;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  padding: 20px 0 35px 0;
+  line-height: 26px;
+}
+/*---------------------------------------------------- WorkOut Schedules ---------------------------------------------------*/
+#container6 {
+  background-color: black;
+}
+.workout-schedule-contain {
+  padding: 95px 0;
+}
+.schedule-heading {
+  text-align: center;
+}
+.schedule-heading .schedule-title {
+  font-family: "Anuphan", sans-serif;
+  font-weight: 400;
+  color: #909090;
+  font-size: 22px;
+}
+.schedule-heading .workout-title {
+  color: #ffffff;
+  font-size: 38px;
+  font-family: "Inter", sans-serif;
+  letter-spacing: -2px;
+  margin-top: 5px;
+}
+.time-schedule-table {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+table thead {
+  background-color: #f13a11;
+}
+thead tr th img {
+  height: 18px;
+}
+tbody tr .td-small {
+  background-color: #f13a11;
+  text-align: center;
+  padding: 10px 18px;
+  font-size: 20px;
+  font-family: "Inter";
+  color: aliceblue;
+  letter-spacing: -1px;
+}
+tbody tr td strong {
+  display: block;
+  text-align: center;
+  color: #fff;
+}
+table,
+td,
+th {
+  border: 1px solid #252525;
+  padding: 18px 10px;
+  color: aliceblue;
+  font-size: 17px;
+  font-family: "Inter";
+  font-weight: 600;
+}
+table {
+  border-collapse: collapse;
+}
+tbody tr td span {
+  color: #909090;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  display: block;
+  text-align: center;
+}
+/*----------------------------------------------- Submit Details & address -----------------------------------------------*/
+#container7 {
+  background-color: #fff;
+}
+.detail-contain {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  column-gap: 5rem;
+  padding: 120px 0;
+}
+.detail-contain .detail-submit-contain .detail-title {
+  color: #161515;
+  font-size: 38px;
+  font-family: "Inter", sans-serif;
+  letter-spacing: -2px;
+  margin-top: 5px;
+  padding-bottom: 16px;
+}
+.detail-contain .detail-submit-contain .inp {
+  padding: 15px 205px 15px 12px;
+  font-size: 16px;
+  font-family: "Inter";
+  font-weight: 400;
+  margin: 10px 0;
+}
+.detail-contain .detail-submit-contain .inp1 {
+  padding: 15px 205px 112px 12px;
+  font-size: 16px;
+  font-family: "Inter";
+  font-weight: 400;
+  margin: 10px 0;
+  margin-bottom: 38px;
+}
+.detail-contain .detail-submit-contain .msg-contain {
+  background-color: #171819;
+  color: #fff;
+  padding: 18px 180px;
+  text-decoration: none;
+  font-family: "Inter";
+}
+.detail-contain .detail-submit-contain .msg-contain:hover {
+  background-color: #f13a11;
+}
+.detail-contain .add-contain .add-title {
+  color: #161515;
+  font-size: 38px;
+  font-family: "Inter", sans-serif;
+  letter-spacing: -2px;
+  margin-top: 5px;
+  padding-bottom: 16px;
+}
+.detail-contain .add-contain .add-para img {
+  height: 14px;
+  margin-right: 2px;
+}
+.detail-contain .add-contain .add-para {
+  font-family: "Plain", sans-serif;
+  font-size: 18px;
+  color: #666262;
+  width: 23rem;
+  margin-top: 12px;
+}
+.hr-line2 {
+  margin: 40px 0;
+}
+iframe {
+  height: 16rem;
+  width: 28rem;
+}
+/* ------------------------------------------------ Footer container ----------------------------------------------------- */
+#footer-container {
+  background-color: #fff;
+}
+.footer-contain {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  column-gap: 23rem;
+  padding: 60px 0;
+}
+.footer-contain .footer-contain1 .contain1-para {
+  color: #666262;
+  font-size: 18px;
+  font-family: "Plain", sans-serif;
+  line-height: 25px;
+}
+.footer-contain .footer-contain2 {
+  display: flex;
+  column-gap: 28px;
+}
+.footer-contain2 .contain2-para1 {
+  display: flex;
+}
+.footer-contain .footer-contain2 .contain2-para1 img {
+  height: 16px;
+  margin: 1px 5px;
+}
+.footer-contain .footer-contain2 .contain2-para1 p {
+  color: #666262;
+  font-size: 18px;
+  font-family: "Plain", sans-serif;
+  cursor: pointer;
+}
+.footer-contain2 .contain2-para2 {
+  display: flex;
+}
+.footer-contain .footer-contain2 .contain2-para2 img {
+  height: 16px;
+  margin: 1px 5px;
+}
+.footer-contain .footer-contain2 .contain2-para2 p {
+  color: #666262;
+  font-size: 18px;
+  font-family: "Plain", sans-serif;
+  cursor: pointer;
+}
+/* -------------------------------------------------- Media Query Responsive -------------------------------------------------- */
+
+@media only screen and (max-width: 600px) {
+  /* ----------------------------- Menu Bar Responsive ---------------------------------- */
+  #container1 {
+    grid-template-columns: auto auto;
+    column-gap: 35%;
+  }
+  .contain2 {
+    display: none;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+  }
+  .contain2 .menu-bar {
+    flex-direction: column;
+  }
+  .contain2 .social-media-bar {
+    display: flex;
+    justify-content: center;
+    margin-left: 38px;
+  }
+  .contain2.responsive {
+    display: block;
+    background-color: #171819;
+    top: 75px;
+  }
+  .menu-icon {
+    display: block;
+  }
+  /* ------------------------------- BG Image Design Responsive ------------------------------------- */
+  .contain {
+    position: absolute;
+    top: 30%;
+    left: 12%;
+  }
+  .contain-title1 {
+    font-size: 32px;
+  }
+  .contain-title2 {
+    font-size: 32px;
+  }
+  /* ------------------------------- MemberShip & Timing Design Responsive ---------------------------------  */
+  .gymso-membership-timing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    row-gap: 4rem;
+    padding: 80px 46px;
+  }
+  .membership .membership-title1 {
+    font-size: 35px;
+  }
+  .membership .membership-title2 {
+    font-size: 20px;
+    width: 25rem;
+  } 
+  .membership .membership-para {
+    font-size: 18px;
+    width: 22rem;
+  }
+  .membership .membership-a {
+    padding: 1rem 5.5rem;
+    font-size: 15px;
+  }
+  .timing .timing-title1 {
+    font-size: 34px;
+  }
+  .hr-line1 {
+    display: none;
+  }
+  /* -------------------------------- About Gymso Responsive ---------------------------- */
+  .about-gymso-contain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 6rem 0;
+  }
+  .about-gymso-contain .about-gymso {
+    padding: 25px 0;
+  }
+  .about-gymso .gymso-title {
+    color: #221f1f;
+    font-size: 35px;
+    font-family: "Inter", sans-serif;
+    letter-spacing: -2px;
+  }
+  .about-gymso .gymso-para1 {
+    font-size: 18px;
+    width: 28rem;
+    line-height: 28px;
+  }
+  .about-gymso .gymso-para2 {
+    font-size: 18px;
+    width: 28rem;
+    line-height: 28px;
+  }
+  .about-img-contain {
+    display: grid;
+    justify-content: center;
+    row-gap: 45px;
+}
+  .img-contain1 .img1 {
+    height: 25rem;
+  }
+  .about-img-contain .bg-color .bg-text-detail .bg-text-detail-contain1 {
+    display: flex;
+    justify-content: center;
+    column-gap: 10rem;
+  }
+  .about-img-contain .bg-color .bg-text-detail .bg-text-detail-contain2 {
+    display: flex;
+    justify-content: center;
+    column-gap: 11rem;
+  }
+  .bg-text-detail-contain21 {
+    display: flex;
+    justify-content: center;
+    column-gap: 200px;
+  }
+  /* --------------------------------- Training Classes Responsive ------------------------------------- */
+  .training-contain .training-contain-item {
+    grid-template-columns: auto;
+    row-gap: 3rem;
+  }
+  /* .conatain-item3 {
+    padding-top: 48px;
+  } */
+  .item-img {
+    height: 265px;
+  }
+  .item-detail .item-para {
+    width: 15rem;
+  }
+  /*------------------------------------ WorkOut Schedules Responsive ------------------------------*/
+  .time-schedule-table {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+    margin: 0 10px;
+    overflow: scroll;
+  }
+  table, td, th {
+    padding: 10px 0;
+    font-size: 15px;
+  }
+  /*----------------------------------------------- Submit Details & address Responsive -----------------------------------------------*/
+  .detail-contain {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    row-gap: 50px;
+  }
+  .detail-contain .detail-submit-contain .detail-title {
+    font-size: 36px;
+    width: 24rem;
+  }
+  .detail-contain .detail-submit-contain .inp {
+    padding: 15px 125px 15px 12px;
+  }
+  .detail-contain .detail-submit-contain .inp1 {
+    padding: 15px 125px 112px 12px;
+  }
+  .detail-contain .detail-submit-contain .msg-contain {
+    padding: 18px 140px;
+  }
+  .detail-contain .add-contain .add-title {
+    width: 20rem;
+  }
+  .detail-contain .add-contain .add-para {
+    width: 25rem;
+  }
+  iframe {
+    height: 15rem;
+    width: 25rem;
+  }
+  /* ------------------------------------------------ Footer container Responsive ----------------------------------------------------- */
+  .footer-contain {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    row-gap: 2rem;
+    padding: 60px 0;
+  }
+  .footer-contain .footer-contain1 .contain1-para {
+    color: #666262;
+    font-size: 18px;
+    font-family: "Plain", sans-serif;
+    line-height: 25px;
+    text-align: center;
+  }
+  .footer-contain .footer-contain2 {
+    display: flex;
+    column-gap: 18px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  /* ----------------------------- Menu Bar Responsive ---------------------------------- */
+  #container1 {
+    grid-template-columns: auto auto;
+    column-gap: 45%;
+  }
+  .contain2 {
+    display: none;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+  }
+  .contain2 .menu-bar {
+    flex-direction: column;
+  }
+  .contain2 .social-media-bar {
+    display: flex;
+    justify-content: center;
+    margin-left: 38px;
+  }
+  .contain2.responsive {
+    display: block;
+    background-color: #171819;
+    top: 75px;
+  }
+  .menu-icon {
+    display: block;
+  }
+  /* ------------------------------- BG Image Design Responsive ------------------------------------- */
+  .contain {
+    position: absolute;
+    top: 34%;
+    left: 20%;
+  }
+  .contain-title1 {
+    font-size: 35px;
+  }
+  .contain-title2 {
+    font-size: 35px;
+  }
+  /* ------------------------------- MemberShip & Timing Design Responsive ---------------------------------  */
+  .gymso-membership-timing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    row-gap: 4rem;
+    padding: 80px 98px;
+  }
+  .membership .membership-title1 {
+    font-size: 35px;
+  }
+  .membership .membership-title2 {
+    font-size: 20px;
+    width: 30rem;
+  } 
+  .membership .membership-para {
+    font-size: 17px;
+    width: 30rem;
+  }
+  .membership .membership-a {
+    padding: 1rem 8rem;
+    font-size: 15px;
+  }
+  .timing .timing-title1 {
+    font-size: 34px;
+  }
+  .hr-line1 {
+    display: none;
+  }
+  /* -------------------------------- About Gymso Responsive ---------------------------- */
+  .about-gymso-contain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 7rem 0;
+  }
+  .about-gymso-contain .about-gymso {
+    padding: 30px;
+  }
+  .about-gymso .gymso-title {
+    color: #221f1f;
+    font-size: 35px;
+    font-family: "Inter", sans-serif;
+    letter-spacing: -2px;
+  }
+  .about-gymso .gymso-para1 {
+    font-size: 18px;
+    width: 33rem;
+    line-height: 28px;
+  }
+  .about-gymso .gymso-para2 {
+    font-size: 18px;
+    width: 32rem;
+    line-height: 28px;
+  }
+  .about-img-contain {
+    display: grid;
+    justify-content: center;
+    row-gap: 45px;
+}
+  .img-contain1 .img1 {
+    height: 32rem;
+  }
+  .about-img-contain .bg-color .bg-text-detail .bg-text-detail-contain1 {
+    display: flex;
+    justify-content: center;
+    column-gap: 20rem;
+  }
+  .about-img-contain .bg-color .bg-text-detail .bg-text-detail-contain2 {
+    display: flex;
+    justify-content: center;
+    column-gap: 21rem;
+  }
+  .bg-text-detail-contain21 {
+    display: flex;
+    justify-content: center;
+    column-gap: 360px;
+  }
+  /* --------------------------------- Training Classes Responsive ------------------------------------- */
+  .training-contain .training-contain-item {
+    grid-template-columns: auto;
+    row-gap: 3rem;
+  }
+  /* .conatain-item3 {
+    padding-top: 48px;
+  } */
+  .item-img {
+    height: 345px;
+  }
+  .item-detail .item-para {
+    width: 15rem;
+  }
+  /*------------------------------------ WorkOut Schedules Responsive ------------------------------*/
+  .time-schedule-table {
+    display: flex;
+    justify-content: center;
+    padding: 50px 120px;
+    margin: 0 10px;
+  }
+  
+  /*----------------------------------------------- Submit Details & address Responsive -----------------------------------------------*/
+  .detail-contain {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    row-gap: 50px;
+  }
+  .detail-contain .detail-submit-contain .detail-title {
+    font-size: 36px;
+    width: 24rem;
+  }
+  .detail-contain .detail-submit-contain .inp {
+    padding: 15px 210px 15px 12px;
+  }
+  .detail-contain .detail-submit-contain .inp1 {
+    padding: 15px 209px 112px 12px;
+  }
+  .detail-contain .detail-submit-contain .msg-contain {
+    padding: 18px 182px;
+  }
+  .detail-contain .add-contain .add-title {
+    width: 20rem;
+  }
+  .detail-contain .add-contain .add-para {
+    width: 26rem;
+  }
+  iframe {
+    height: 15rem;
+    width: 30rem;
+  }
+  /* ------------------------------------------------ Footer container Responsive ----------------------------------------------------- */
+  .footer-contain {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    row-gap: 2rem;
+    padding: 60px 0;
+  }
+  .footer-contain .footer-contain1 .contain1-para {
+    color: #666262;
+    font-size: 18px;
+    font-family: "Plain", sans-serif;
+    line-height: 25px;
+    text-align: center;
+  }
+  .footer-contain .footer-contain2 {
+    display: flex;
+    column-gap: 18px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* ----------------------------- Menu Bar Responsive ---------------------------------- */
+  #container1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 52%;
+  }
+  .contain2 {
+    width: 100%;
+    left: 0;
+    text-align: center;
+  }
+  .contain2 .menu-bar {
+    flex-direction: column;
+  }
+  .contain2 .social-media-bar {
+    display: flex;
+    justify-content: center;
+    margin-left: 38px;
+  }
+  /* ------------------------------- BG Image Design Responsive ------------------------------------- */
+  .contain {
+    position: absolute;
+    top: 35%;
+    left: 26%;
+  }
+  /* ------------------------------- MemberShip & Timing Design Responsive ---------------------------------  */
+  .gymso-membership-timing {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    padding: 80px 0;
+  }
+  .membership .membership-title1 {
+    font-size: 35px;
+  }
+  .membership .membership-title2 {
+    font-size: 22px;
+    width: 22rem;
+    line-height: 2rem;
+  } 
+  .membership .membership-para {
+    font-size: 18px;
+    width: 22rem;
+    line-height: 26px;
+  }
+  .membership .membership-a {
+    padding: 1rem 4rem;
+    font-size: 15px;
+  }
+  .timing .timing-title1 {
+    font-size: 34px;
+  }
+  .hr-line1 {
+    height: 12rem;
+    margin-top: 20px;
+    border: 1px solid #1a1919;
+    display: block;
+  }
+  /* -------------------------------- About Gymso Responsive ---------------------------- */
+  .about-gymso-contain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 7rem 0;
+  }
+  .about-gymso-contain .about-gymso {
+    padding: 30px;
+  }
+  .about-gymso .gymso-title {
+    color: #221f1f;
+    font-size: 38px;
+    font-family: "Inter", sans-serif;
+    letter-spacing: -2px;
+  }
+  .about-gymso .gymso-para1 {
+    font-size: 18px;
+    width: 36rem;
+    line-height: 28px;
+  }
+  .about-gymso .gymso-para2 {
+    font-size: 18px;
+    width: 36rem;
+    line-height: 28px;
+  }
+  .about-img-contain {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+  }
+  .img-contain1 .img1 {
+    height: 20rem;
+  }
+  .about-img-contain .bg-color .bg-text-detail .bg-text-detail-contain1 {
+    display: flex;
+    justify-content: center;
+    column-gap: 7rem;
+  }
+  .about-img-contain .bg-color .bg-text-detail .bg-text-detail-contain2 {
+    display: flex;
+    justify-content: center;
+    column-gap: 8rem;
+  }
+  .bg-text-detail-contain21 {
+    display: flex;
+    justify-content: center;
+    column-gap: 155px;
+  }
+  /* --------------------------------- Training Classes Responsive ------------------------------------- */
+  .training-contain .training-contain-item {
+    grid-template-columns: auto auto;
+  }
+  .conatain-item3 {
+    padding-top: 48px;
+  }
+  .item-img {
+    height: 220px;
+  }
+  .item-detail .item-para {
+    width: 15rem;
+  }
+  /*------------------------------------ WorkOut Schedules Responsive ------------------------------*/
+  .time-schedule-table {
+    display: flex;
+    justify-content: center;
+    padding: 50px 120px;
+  }
+  /*----------------------------------------------- Submit Details & address Responsive -----------------------------------------------*/
+  .detail-contain {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    column-gap: 40px;
+  }
+  .detail-contain .detail-submit-contain .detail-title {
+    font-size: 36px;
+    width: 23rem;
+  }
+  .detail-contain .detail-submit-contain .inp {
+    padding: 15px 100px 15px 12px;
+  }
+  .detail-contain .detail-submit-contain .inp1 {
+    padding: 15px 100px 112px 12px;
+  }
+  .detail-contain .detail-submit-contain .msg-contain {
+    padding: 18px 128px;
+  }
+  .detail-contain .add-contain .add-title {
+    width: 21rem;
+  }
+  .detail-contain .add-contain .add-para {
+    width: 18rem;
+  }
+  iframe {
+    height: 15rem;
+    width: 22rem;
+  }
+  /* ------------------------------------------------ Footer container Responsive ----------------------------------------------------- */
+  .footer-contain {
+    column-gap: 4rem;
+  }
+}
+@media only screen and (min-width: 992px) {
+  /* ----------------------------- Menu Bar Responsive ---------------------------------- */
+  #container1 {
+    grid-template-columns: auto auto;
+    column-gap: 1px;
+  }
+  .contain2 {
+    display: flex;
+    position: initial;
+  }
+  .contain2 .menu-bar {
+    flex-direction: row;
+  }
+  .menu-icon {
+    display: none;
+  }
+  .contain2.menu-bar {
+    display: block;
+  }
+  .contain2 .social-media-bar {
+    margin: 0;
+  }
+  /* ------------------------------- BG Image Design Responsive ------------------------------------- */
+  .contain {
+    position: absolute;
+    top: 35%;
+    left: 30%;
+  }
+  /* ------------------------------- MemberShip & Timing Design Responsive ---------------------------------  */
+  .gymso-membership-timing {
+    display: flex;
+    justify-content: center;
+    column-gap: 5rem;
+    padding: 80px 80px;
+  }
+  .membership .membership-title1 {
+    font-size: 35px;
+  }
+  .membership .membership-title2 {
+    font-size: 22px;
+    width: 25rem;
+  } 
+  .membership .membership-para {
+    font-size: 18px;
+    width: 23rem;
+  }
+  .membership .membership-a {
+    padding: 1rem 5.5rem;
+    font-size: 15px;
+  }
+  .timing .timing-title1 {
+    font-size: 34px;
+  }
+  .hr-line1 {
+    height: 12rem;
+    margin-top: 20px;
+    border: 1px solid #1a1919;
+    display: block;
+  }
+  /*---------------------------------- About Gymso Responsive ---------------------------------*/
+  .about-gymso-contain {
+    display: flex;
+    justify-content: center;
+    /* column-gap: 60px; */
+    padding: 7rem 21px;
+  }
+  .about-gymso-contain .about-gymso {
+    padding: 30px;
+  }
+  .about-gymso .gymso-title {
+    color: #221f1f;
+    font-size: 38px;
+    font-family: "Inter", sans-serif;
+    letter-spacing: -2px;
+  }
+  .about-gymso .gymso-para1 {
+    font-size: 18px;
+    width: 24rem;
+    line-height: 28px;
+  }
+  .about-gymso .gymso-para2 {
+    font-size: 18px;
+    width: 24rem;
+    line-height: 28px;
+  }
+  .img-contain1 .img1 {
+    height: 14rem;
+  }
+  .about-img-contain .bg-color .bg-text-detail .bg-text-detail-contain1 {
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+  }
+  .about-img-contain .bg-color .bg-text-detail .bg-text-detail-contain2 {
+    display: flex;
+    justify-content: center;
+    column-gap: 3rem;
+  }
+  .bg-text-detail-contain21 {
+    display: flex;
+    justify-content: center;
+    column-gap: 72px;
+  }
+  /*----------------------------------- Training Classes Responsive --------------------------------*/
+  .training-contain .training-contain-item {
+    grid-template-columns: auto auto auto;
+  }
+  .conatain-item3 {
+    padding-top: 0;
+  }
+  .item-img {
+    height: 192px;
+  }
+  .item-detail .item-para {
+    width: 15rem;
+  }
+  /*------------------------------------ WorkOut Schedules Responsive ------------------------------*/
+  .time-schedule-table {
+    display: flex;
+    justify-content: center;
+    padding: 50px 120px;
+  }
+  /*----------------------------------------------- Submit Details & address Responsive -----------------------------------------------*/
+  .detail-contain .detail-submit-contain .detail-title {
+    font-size: 36px;
+    width: 23rem;
+  }
+  .detail-contain .detail-submit-contain .inp {
+    padding: 15px 125px 15px 12px;
+  }
+  .detail-contain .detail-submit-contain .inp1 {
+    padding: 15px 125px 112px 12px;
+  }
+  .detail-contain .detail-submit-contain .msg-contain {
+    padding: 18px 140px;
+  }
+  .detail-contain .add-contain .add-title {
+    width: 24rem;
+  }
+  .detail-contain .add-contain .add-para {
+    width: 20rem;
+  }
+  iframe {
+    height: 15rem;
+    width: 24rem;
+  }
+  /* ------------------------------------------------ Footer container Responsive ----------------------------------------------------- */
+  .footer-contain {
+    column-gap: 10rem;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  /* ----------------------------- Menu Bar Responsive ---------------------------------- */
+  #container1 {
+    grid-template-columns: auto auto;
+    column-gap: 10rem;
+  }
+  /* ------------------------------- BG Image Design Responsive ------------------------------------- */
+  .contain {
+    position: absolute;
+    top: 35%;
+    left: 33.5%;
+  }
+  .contain-title1 {
+    font-size: 48px;
+  }
+  .contain-title2 {
+    font-size: 48px;
+  }
+  /* ------------------------------- MemberShip & Timing Design Responsive ---------------------------------  */
+  .gymso-membership-timing {
+    display: flex;
+    justify-content: center;
+    column-gap: 5rem;
+    padding: 80px 0;
+  }
+  .membership .membership-title1 {
+    font-size: 36px;
+  }
+  .membership .membership-title2 {
+    font-size: 22px;
+    width: 31rem;
+  } 
+  .membership .membership-para {
+    font-size: 18px;
+    width: 27rem;
+    line-height: 26px;
+  }
+  .membership .membership-a {
+    padding: 1rem 8rem;
+  }
+  .timing .timing-title1 {
+    font-size: 34px;
+  }
+  .hr-line1 {
+    height: 12rem;
+    margin-top: 20px;
+    border: 1px solid #1a1919;
+    display: block;
+  }
+  /*---------------------------------- About Gymso Responsive ---------------------------------*/
+  .about-gymso-contain {
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
+    padding: 7rem 21px;
+  }
+  .about-gymso .gymso-title {
+    color: #221f1f;
+    font-size: 38px;
+    font-family: "Inter", sans-serif;
+    letter-spacing: -2px;
+  }
+  .about-gymso .gymso-para1 {
+    font-size: 19px;
+    width: 30rem;
+    line-height: 28px;
+  }
+  .about-gymso .gymso-para2 {
+    font-size: 18px;
+    width: 28rem;
+    line-height: 28px;
+  }
+  .img-contain1 .img1 {
+    height: 16rem;
+  }
+  .about-img-contain .bg-color .bg-text-detail .bg-text-detail-contain1 {
+    display: flex;
+    justify-content: center;
+    column-gap: 4rem;
+  }
+  .about-img-contain .bg-color .bg-text-detail .bg-text-detail-contain2 {
+    display: flex;
+    justify-content: center;
+    column-gap: 5rem;
+  }
+  .bg-text-detail-contain21 {
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+  }
+  /*----------------------------------- Training Classes Responsive --------------------------------*/
+  .training-contain .training-contain-item {
+    grid-template-columns: auto auto auto;
+  }
+  .conatain-item3 {
+    padding-top: 0;
+  }
+  .item-img {
+    height: 235px;
+  }
+  /*------------------------------------ WorkOut Schedules Responsive ------------------------------*/
+  .time-schedule-table {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+  }
+  /*----------------------------------------------- Submit Details & address Responsive -----------------------------------------------*/
+  .detail-contain {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    column-gap: 80px;
+  }
+  .detail-contain .detail-submit-contain .detail-title {
+    font-size: 38px;
+    width: 27rem;
+  }
+  .detail-contain .detail-submit-contain .inp {
+    padding: 15px 205px 15px 12px;
+  }
+  .detail-contain .detail-submit-contain .inp1 {
+    padding: 15px 205px 112px 12px;
+  }
+  .detail-contain .detail-submit-contain .msg-contain {
+    padding: 18px 180px;
+  }
+  iframe {
+    height: 16rem;
+    width: 28rem;
+  }
+  /* ------------------------------------------------ Footer container Responsive ----------------------------------------------------- */
+  .footer-contain {
+    column-gap: 23rem;
+  }
+}
+
